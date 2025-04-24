@@ -110,7 +110,7 @@ async def main():
     for car in cars:
         if car:
             for url in ENDPOINTS_TO_TEST:
-                await test_endpoint(client, car, "GET", url.strip())
+                await test_endpoint(client, car, "GET", url.format(vin=car.vin).strip())
 
 
 loop = asyncio.new_event_loop()

@@ -16,6 +16,7 @@ ENDPOINTS_TO_TEST = [
     # "onetrust/consent/purposes/{id}",
     # "/orders",
     # "/osb/slider",
+    "/v1/osb/card?vin={vin}",
     # "/self-service/asset-device/mop/unlock-status",
     # "tou/product/mapping",
     # "translations/xKQ1i33s9htHVN9fi994WJZUE/feed/{locale}",
